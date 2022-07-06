@@ -38,3 +38,76 @@
   color: white;
   border-radius: 5px;
 }
+
+/* Donation-Limit Section */
+.donation-limit-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.donation-limit-container {
+  text-align: center;
+  
+  padding: 0px 300px;
+}
+
+.donation-limit-container h1 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.donation-limit-container p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 50px;
+}
+
+.money-limit {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.money-limit .amount {
+  padding: 40px 30px;
+  border-radius: 5px;
+  margin: 15px 10px;
+  background-color: #ffeeee;
+}
+#amount-200tk {
+  border: 2px solid #ff5959;
+  color: #ff5959;
+}
+#amount-1000tk,
+#amount-5000tk {
+  padding: 40px 24px;
+}
+.money-limit .amount h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.donation-limit-container input {
+  font-weight: 400;
+  font-size: 18px;
+  color: #b3b3b3;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.donation-limit-container hr {
+  margin-bottom: 40px;
+}
+
+.donation-limit-container a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 16px 12px;
+  color: #ffffff;
+  background-color: #ff5959;
+  margin-bottom: 50px;
+  
+}
