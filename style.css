@@ -6,7 +6,7 @@
 
 /* Header Section */
 .header-section {
-  background-image: url(./images/project.png);
+  background-image: url(./images/donation002.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,14 +18,14 @@
 .header-container h1 {
   margin-bottom: 50px;
   font-weight: 700;
-  font-size: 65px;
+  font-size: 70px;
   color: #ffffff;
 }
 
 .header-container p {
   color: white;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 50px;
 }
 .header-container a {
@@ -42,7 +42,7 @@
 /* Donation-Limit Section */
 .donation-limit-section {
   margin-top: 100px;
-  margin-bottom: 130px;
+  margin-bottom: 110px;
 }
 
 .donation-limit-container {
@@ -75,6 +75,7 @@
   border-radius: 5px;
   margin: 15px 10px;
   background-color: #ffeeee;
+  color: #707070;
 }
 #amount-200tk {
   border: 2px solid #ff5959;
@@ -91,8 +92,9 @@
 .donation-limit-container input {
   font-weight: 400;
   font-size: 18px;
-  color: #b3b3b3;
   border: none;
+  text-align: center;
+  padding: 10px 10px;
   margin-bottom: 10px;
 }
 
@@ -105,16 +107,15 @@
   font-weight: 600;
   font-size: 20px;
   border-radius: 5px;
-  padding: 16px 12px;
+  padding: 14px 15px;
   color: #ffffff;
   background-color: #ff5959;
-  margin-bottom: 50px;
 }
 
 /* Donate Plan Section */
 
 .donate-plan-section {
-  margin: 30px 0px;
+  margin-bottom: 100px;
 }
 
 .donate-plan-container {
@@ -187,7 +188,7 @@
 /* Our Work Section */
 
 .our-work-section {
-  margin-bottom: 50px;
+  margin-bottom: 120px;
   background-image: url(./images/map4.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -232,10 +233,16 @@
   margin-left: 25px;
   margin-bottom: 20px;
 }
-
-.project h3, .project p{
+.project h3{
   margin-bottom: 20px;
   padding: 0px 20px;
+}
+
+.project p{
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  color: #707070;
+  
 }
 
 .our-work-container a{
@@ -295,7 +302,7 @@
 
 .input-container a {
   text-decoration: none;
-  padding: 15px 10px;
+  padding: 15px 25px;
   font-weight: 500;
   font-size: 16px;
   color: white;
