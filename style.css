@@ -3,3 +3,38 @@
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
 }
+
+/* Header Section */
+.header-section {
+  background-image: url(./images/donation001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-container {
+  text-align: center;
+  padding: 156px 250px;
+}
+
+.header-container h1 {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+}
+
+.header-container p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.header-container a {
+  text-decoration: none;
+  align-items: center;
+  padding: 16px 12px;
+  background: #df0909;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+}
