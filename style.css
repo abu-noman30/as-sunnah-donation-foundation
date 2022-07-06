@@ -113,8 +113,8 @@
 
 /* Donate Plan Section */
 
-.donate-plan-section{
-  margin: 100px 0px;
+.donate-plan-section {
+  margin: 80px 0px;
 }
 
 .donate-plan-container {
@@ -134,7 +134,7 @@
   color: #707070;
   margin-bottom: 50px;
 }
-.plan-container-paragraph{
+.plan-container-paragraph {
   padding: 0px 150px;
 }
 
@@ -169,17 +169,95 @@
   color: #707070;
 }
 
-#catagory-food{
+#catagory-food {
   margin-right: 20px;
   background-color: rgba(79, 157, 166, 0.1);
 }
 
-#catagory-shelter{
+#catagory-shelter {
   margin-right: 10px;
   background-color: rgba(255, 89, 89, 0.1);
 }
 
-#catagory-education{
+#catagory-education {
   margin-left: 10px;
-  background-color: #FFF4D6;
+  background-color: #fff4d6;
+}
+
+/* Update Section */
+
+.update-section {
+  margin-bottom: 50px;
+}
+.update-container {
+  text-align: center;
+  padding: 0px 300px;
+}
+
+.update-container h1 {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.update-container p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 50px;
+}
+.input-container {
+  width: 100%;
+  height: 180px;
+  background-color: #fff4d6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container input {
+  width: 275px;
+  font-weight: 500;
+  font-size: 16px;
+  background: #d9d9d9;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 0px;
+  padding-left: 10px;
+}
+
+.input-container a {
+  text-decoration: none;
+  padding: 15px 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  background-color: #ff5959;
+  border-radius: 5px;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: black;
+}
+.footer-section {
+  width: 100%;
+  padding: 60px 0px;
+  text-align: center;
+  color: white;
+}
+
+.footer-section h1 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #ff5959;
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #d9dbe1;
 }
